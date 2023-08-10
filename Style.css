@@ -1,0 +1,76 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 10px;
+    background-image:linear-gradient(65deg,#bed154,#0de00d); 
+  }
+
+  #container {
+    text-align: left; /* Center-align the contents inside the div */
+  }
+
+  h1 {
+    margin-bottom: 10px;
+  }
+
+  form {
+    margin-bottom: 10px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  textarea, input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #28bd2f;
+    color: #181f21;
+    border: none;
+    cursor: pointer;
+  }
+ input[type="submit"]:hover{
+    background-color: rgb(226, 14, 14);
+ }
+  #detailsContainer {
+    margin-top: 30px;
+  }
+
+  #detailsContainer h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  #detailsContainer h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  #detailsContainer p {
+    margin-bottom: 10px;
+  }
+
+  #detailsContainer img {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+
+  /* Pink-colored footer */
+  #footer {
+    text-align: center;
+    background-color: #1939da; /* Pink footer background color */
+    padding: 10px;
+    color: #fff; /* White text color */
+  }
+
+  /* Additional styles for video preview */
+  #videoPreview iframe {
+    width: 50%; /* Set the width to 100% */
+    height: 400px; /* Set a fixed height for the video preview */
+    margin-bottom: 10px;
+  }
